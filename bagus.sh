@@ -1,11 +1,10 @@
 #!/usr/bin/bash
 
 
-pkg upgrade && pkg update 
-pkg install imagemagick 
-pkg install nodejs
-pkg install bash 
-pkg install ffmpeg
+pkg upgrade -y && pkg update -y
+pkg install imagemagick -y
+pkg install nodejs -y
+pkg install ffmpeg -y
 cd /sdcard 
 cp -r @SELF-BOT /$HOME 
 cd @SELF-BOT 
