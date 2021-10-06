@@ -14,6 +14,8 @@ clear
 echo "[*] Server By Yuki Azura"
 echo "[*] Ketik $ npm start Untuk Menjalankan"
 cd
+cd
+cd
 cd @SELF-BOT
 sleep 300
 npm imagemagick
