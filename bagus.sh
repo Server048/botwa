@@ -16,7 +16,6 @@ cd
 cd
 cd
 cd @SELF-BOT
-sleep 300
 npm imagemagick
 npm i @adiwajshing/baileys@latest
 npm start
